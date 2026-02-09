@@ -1,0 +1,53 @@
+# MATLAB/Simulink specific files
+*.slxc
+*.m~
+*.mex*
+*.asv
+
+# Simulink cache and build files
+slprj/
+work/
+codegen/
+slprj_backup/
+
+# MATLAB temporary files
+*.log
+*.tmp
+*.temp
+
+# Compiled files
+*.p
+*.class
+*.jar
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Project build artifacts
+*.zip
+*.tar.gz
+
+# Private/sensitive data
+*.key
+*.pem
+*.env
+.env
+
+# Dependencies (if using MATLAB Add-ons)
+add-ons/
+
+# External dependencies that might be large
+external_libs/
+vendor/
+
+# System files
+desktop.ini
