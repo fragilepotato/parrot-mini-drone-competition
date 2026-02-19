@@ -17,9 +17,11 @@ Command.rollStepAmplitude = 0;
 Command.rollStepTime = 0; 
 Command.rollStepDuration = 0;
 
+% --- MODIFIED FOR HOVER TEST ---
 % Altitude Command
-Command.takeoffDuration = 0;
-Command.altitude = 0;
+Command.takeoffDuration = 2; % Takes 2 seconds to ramp up motors
+Command.altitude = 1;        % Target height in meters (Standard test height)
+% -------------------------------
 
 % Joystick
 Command.rollDeadZoneEnd = 0.5;
